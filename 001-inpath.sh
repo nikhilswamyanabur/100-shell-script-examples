@@ -8,7 +8,7 @@ in_path()
   # 0 if found and executable, 1 if not. Note that this temporarily modifies 
   # the the IFS (input field seperator), but restores it upon completion.
 
-  cmd=$1        path=$2         retval=1
+   cmd=$1        path=$2         retval=1
   oldIFS=$IFS   IFS=":"
 
   for directory in $path
